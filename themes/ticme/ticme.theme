@@ -1,0 +1,20 @@
+<?php
+
+/*
+ * Fonction de preprocess
+ * Affecter la sortie de certains HTML via des fonctions de prétraitement.
+ * Par exemple, si vous souhaitez ajouter une classe à un menu et que vous préférez le faire au niveau PHP,
+ * vous pouvez le faire içi.
+ *
+ * Créez une fonction telle que mytheme_preprocess_HOOK HOOK se réfère à l'élément que vous souhaitez affecter.
+ * Écrivez vos modifications et enregistrez
+ * Reconstruisez le cache afin que vos modifications soient disponibles
+ */
+
+function ticme_preprocess_node(&$variables) {
+    // Ajouter uniquement du style css pour les pages de type node
+    if($variables['node']->nid->value == 2 ){
+        $variables['#attached']['library'][] = 'ticme/node-css';
+    }
+
+}

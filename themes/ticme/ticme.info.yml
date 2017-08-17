@@ -1,0 +1,23 @@
+name: Ticme
+description: Theme Drupal 8.3.6
+type: theme
+core: 8.x
+
+regions:
+  header: Header
+  primary_menu: 'Menu Principal'
+  secondary_menu: 'Secondary menu'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  breadcrumb: "Fil d'ariane"
+  content: 'Contenu'
+  sidebar_first: 'Barre latérale'
+  footer_first: 'Pied de page primaire'
+  footer_second: 'Pied de page secondaire'
+
+libraries:
+  - 'ticme/global-css'
+  - 'ticme/global-js'
+
+stylesheets-remove:
+  - /core/themes/stable/css/views/views.module.css

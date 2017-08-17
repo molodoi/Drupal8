@@ -1,0 +1,36 @@
+ticmedemo.description:
+  path: '/ticmedemo/hello'
+  defaults:
+    _controller: '\Drupal\ticmedemo\Controller\DemoController::description'
+    _title: 'Hello world title'
+  requirements:
+    _permission: 'access content'
+
+ticmedemo.contact_form:
+  path: '/ticmedemo/contact'
+  defaults:
+    _form: '\Drupal\ticmedemo\Form\ContactForm'
+    _title: 'Contact Form'
+  requirements:
+    _permission: 'access content'
+
+ticmedemo.requests:
+  path: '/ticmedemo/requests'
+  defaults:
+    _controller: '\Drupal\ticmedemo\Controller\DemoController::requests'
+    _title: 'Requests'
+  requirements:
+    _permission: 'access content'
+
+ticmedemo.configuration:
+  path: '/admin/ticmedemo/config'
+  defaults:
+    _form: '\Drupal\ticmedemo\Form\ConfigForm'
+    _title: 'Configuration personnalisée'
+  requirements:
+    _permission: 'access administration pages'
+
+# Add a routing file
+# https://www.drupal.org/docs/8/creating-custom-modules/add-a-routing-file
+# Structure of routes
+# https://www.drupal.org/node/2092643

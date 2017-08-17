@@ -1,0 +1,16 @@
+ticmedemo.linkhello:
+  title: Link Hello
+  description: 'Ceci est une description du lien Link Hello'
+  parent: system.admin_structure
+  route_name: ticmedemo.description
+
+ticmedemo.configuration:
+  title: Config Store
+  description: 'Nom et horaires'
+  parent: system.admin_config_system
+  route_name: ticmedemo.configuration
+  weight: -21
+
+# Ci-dessus ajouter une route en backend Admin > Structure > Link Hello
+# vider le cache avec : drush cache-rebuild
+# https://www.drupal.org/docs/8/api/menu-api

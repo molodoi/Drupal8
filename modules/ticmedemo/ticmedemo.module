@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * https://api.drupal.org/api/drupal/core%21core.api.php/group/hooks/8.3.x
+ * @param \Drupal\Core\Entity\EntityInterface $node
+ */
+function ticmedemo_node_presave(\Drupal\Core\Entity\EntityInterface $node){
+    dsm('Save Oooooooooooooooooook');
+}

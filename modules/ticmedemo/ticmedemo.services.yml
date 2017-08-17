@@ -1,0 +1,5 @@
+services:
+  ticmedemo.config_subscriber:
+    class: Drupal\ticmedemo\EventSubscriber\ConfigSubscriber
+    tags:
+      - { name: event_subscriber }

@@ -1,0 +1,13 @@
+name: TicmeDemo
+description: Module de démo drupal 8
+package: Demo suite
+core: 8.x
+version: '8.3.6'
+type: module
+hidden: false
+
+dependencies:
+  - devel
+
+# Let Drupal 8 know about your module with an .info.yml file
+# https://www.drupal.org/node/2000204
