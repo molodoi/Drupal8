@@ -47,6 +47,7 @@ modules/ctools
 modules/devel
 modules/pathauto
 modules/token
+modules/seckit
 
 themes/agnian_material_admin
 themes/bootstrap
