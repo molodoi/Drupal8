@@ -9,8 +9,9 @@ Technologies & versions:
 Content
 ========================
 Build Theming and Module creation with Drupal 8
+
 Learn how to:
-- Backend UI, Content, Structure, Content Type, Fields Type, Form&Front rendering
+- Backend : UI, Content, Structure, Content Type, Fields Type, Form&Front rendering
 - Users : Roles, Permissions & Access control
 - Theming : Theme and sub-theme, config *.yml, Cache, Override template, Regions, Twig, Add/Remove script Js/Css
 - Module : MVC, Routing, Block programmatically, Form, Validation, Node & Data flow, Event, Subscriber, Hooks
@@ -18,6 +19,7 @@ Learn how to:
 Modules
 ========================
 Installed:
+
 https://www.drupal.org/project/ctools
 https://www.drupal.org/project/devel
 https://www.drupal.org/project/pathauto
@@ -25,6 +27,7 @@ https://www.drupal.org/project/token
 https://www.drupal.org/project/seckit
 
 Security:
+
 https://www.drupal.org/project/login_security
 https://www.drupal.org/project/password_policy
 https://www.drupal.org/project/tfa
@@ -45,18 +48,22 @@ https://www.drupal.org/project/spamspan
 https://www.drupal.org/project/blockanonymouslinks
 
 Backend:
+
 https://www.drupal.org/project/admin_toolbar
 https://www.drupal.org/project/block_visibility_groups
 
 Social & Meta:
+
 https://www.drupal.org/project/addtoany
 https://www.drupal.org/project/metatag
 
 Media:
+
 https://www.drupal.org/project/entity_browser
 https://www.drupal.org/project/file_browser
 
 HTTPS/SSL:
+
 https://www.fastcomet.com/tutorials/drupal8/enable-ssl
 
 
